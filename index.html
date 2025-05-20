@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subscribe to BDJ Alerts</title>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "c37c40c5-7c7e-48b8-b0a1-1fd3c826477b",
+        notifyButton: {
+          enable: true
+        },
+        path: "/BDJRatesPush/"
+      });
+    });
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 80px;
+      background: #f7f7f7;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>📢 Subscribe to BDJ Alerts</h1>
+  <p>Click "Allow" when prompted to get the latest BDJ Rate Notifications.</p>
+</body>
+</html>

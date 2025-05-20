@@ -1,0 +1,7 @@
+{
+  "name": "BDJ Rate Alerts",
+  "short_name": "BDJ Alerts",
+  "start_url": "/BDJRatesPush/",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795"
+}
